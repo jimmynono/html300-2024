@@ -24,7 +24,7 @@ const currentView = computed(() => {
   <a href="#/">Home</a> | <a href="#/about">About</a> |
   <a href="#/non-existent-path">Broken Link</a>
   <component :is="currentView" />
-  <footer>Footer for All Pages</footer>
+  <footer>Footer for All Pages!!!!</footer>
 </template>
 
 <style scoped>
